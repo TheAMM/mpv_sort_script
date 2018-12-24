@@ -1,0 +1,19 @@
+{
+	"output" : "mpv_sort_script.lua",
+
+	"files" : [
+		"src/license_blurb.lua",
+		"<version>",
+		"libs/helpers.lua",
+		"libs/option_parser.lua",
+		"src/options.lua",
+		"src/alphanum.lua",
+		"src/main.lua"
+	],
+
+	"version_file" : "version.txt",
+	"version_template_file" : "src/version.tmpl.lua",
+
+	"header_prefix" : "--[ ",
+	"header_suffix" : " ]--"
+}
